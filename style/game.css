@@ -1,0 +1,12 @@
+#contentDiv{
+    margin: 5%;
+}
+
+#contentDiv > img{
+    height: 55vh;
+    float: left;
+}
+
+p{
+    text-align: justify;
+}
