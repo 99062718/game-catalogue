@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
     <title>Catalog</title>
 </head>
 <body>
@@ -21,9 +22,7 @@
 
     <div>
         <?php for($x = 0; $x < sizeof($gameData); $x++){ ?>
-            <div class="gameData">
-                <img src="img/<?php echo $x?>/logo.png" alt="logo">
-            </div>
+            <img class="gameLogo" src="img/<?php echo $x?>/logo.png" alt="logo">
         <?php } ?>
     </div>
 </body>
