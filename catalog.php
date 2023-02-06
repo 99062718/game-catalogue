@@ -20,9 +20,10 @@
         </ul>
     </header>
 
-    <div>
+    <div id="catalogDiv">
+        <h1>CATALOG</h1>
         <?php for($x = 0; $x < sizeof($gameData); $x++){ ?>
-            <img class="gameLogo" src="img/<?php echo $x?>/logo.png" alt="logo">
+            <a href="game.php?id=<?php echo $x ?>"><img class="gameLogo" src="img/<?php echo $x?>/logo.png" alt="logo"></a>
         <?php } ?>
     </div>
 </body>
