@@ -1,3 +1,7 @@
+<?php
+    $gameData = json_decode(file_get_contents("gameData.json"), true);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,5 +18,13 @@
             <li><a href="aboutUs.html">About us</a></li>
         </ul>
     </header>
+
+    <div>
+        <?php for($x = 0; $x < sizeof($gameData); $x++){ ?>
+            <div class="gameData">
+                <img src="img/<?php echo $x?>/logo.png" alt="logo">
+            </div>
+        <?php } ?>
+    </div>
 </body>
 </html>
