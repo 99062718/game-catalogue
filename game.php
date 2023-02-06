@@ -14,6 +14,9 @@
 <body>
     <div id="contentDiv">
         <img src="img/<?php echo $_GET["id"] ?>/cover.png" alt="cover">
+        <div id="score">
+            <h1><?php echo $gameData["score"] ?></h1>
+        </div>
         <p>
             Description: <?php echo $gameData["description"] ?><br>
             Genre(s): <?php echo $gameData["genre"] ?><br>
@@ -23,5 +26,16 @@
             Date of release: <?php echo $gameData["date"] ?>
         </p>
     </div>
+
+    <script>
+        score = <?php echo $gameData["score"] ?>;
+        scoreDiv = document.getElementById("score");
+
+        if(score < 50){
+            scoreDiv.style.backgroundColor = "red";
+        } else if(score < 80){
+            scoreDiv.style.backgroundColor = "orange";
+        }
+    </script>
 </body>
 </html>

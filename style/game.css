@@ -7,6 +7,15 @@
     float: left;
 }
 
+#score{
+    background-color: lightgreen;
+    width: 5%;
+    text-align: center;
+    border-radius: 5%;
+    margin-top: 2%;
+    float: right;
+}
+
 p{
     text-align: justify;
 }
