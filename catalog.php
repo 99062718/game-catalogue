@@ -23,7 +23,7 @@
     <div id="catalogDiv">
         <h1>CATALOG</h1>
         <?php for($x = 0; $x < sizeof($gameData); $x++){ ?>
-            <a href="game.php?id=<?php echo $x ?>"><img class="gameLogo" src="img/<?php echo $x?>/logo.png" alt="logo"></a>
+            <a href="game.php?id=<?php echo $x ?>"><img class="gameCover" src="img/<?php echo $x?>/cover.png" alt="cover"></a>
         <?php } ?>
     </div>
 </body>

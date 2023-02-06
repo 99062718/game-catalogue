@@ -2,11 +2,111 @@
     "0": {
         "name": "Deep Rock Galactic",
         "score": 85,
-        "description": "",
-        "genre": "",
-        "multi": "",
+        "description": "Deep Rock Galactic is a 1-4 player co-op FPS featuring badass space Dwarves, 100% destructible environments, procedurally-generated caves, and endless hordes of alien monsters.",
+        "genre": "Action, Shooter, First-Person, Arcade",
+        "multi": "4 player co-op",
         "developer": "Ghost ship games",
         "publisher": "Coffee stain publishing",
-        "date": ""
+        "date": "13/05/2020"
+    },
+    "1": {
+        "name": "Factorio",
+        "score": 90,
+        "description": "Factorio is a game about building and creating automated factories to produce items of increasing complexity, within an infinite 2D world. Use your imagination to design your factory, combine simple elements into ingenious structures, and finally protect it from the creatures who don't really like you.",
+        "genre": "Strategy, Management, Business / Tycoon",
+        "multi": "Online multiplayer",
+        "developer": "Wube Software LTD.",
+        "publisher": "Wube Software LTD.",
+        "date": "14/08/2020"
+    },
+    "2": {
+        "name": "Yakuza kiwami 2",
+        "score": 82,
+        "description": "One year after the 10 billion yen incident, Kazuma Kiryu begins to build a peaceful life with Haruka Sawamura. Tearing him away, an assassination threatens to erupt in an all-out war between the Tojo Clan and the Omi Alliance. Kiryu, the Dragon of Dojima, must travel to Sotenbori, Osaka in an attempt to broker peace between the rival clans, but Ryuji Goda, known as the Dragon of Kansai, will stop at nothing to get his war. In this world, there can only be one dragon.",
+        "genre": "Action Adventure, Open-World",
+        "multi": "Singleplayer",
+        "developer": "Ryu ga Gotoku Studios",
+        "publisher": "SEGA",
+        "date": "09/05/2019"
+    },
+    "3": {
+        "name": "Project zomboid",
+        "score": "TBR",
+        "description": "Surviving isn’t just about blowing zombie’s heads off. Depression, starvation, trust issues, loneliness, illness, insanity. These are just some of the things you have to deal with in Project Zomboid.",
+        "genre": "Role-Playing, General",
+        "multi": "Online multiplayer",
+        "developer": "The Indie Stone",
+        "publisher": "The Indie Stone",
+        "date": "TBA - Early Access"
+    },
+    "4": {
+        "name": "Dwarf fortress",
+        "score": 93,
+        "description": "The deepest, most intricate simulation of a world that's ever been created. Build a fortress and try to help your dwarves survive against a deeply generated world. ",
+        "genre": "Turn-Based, Fantasy, General, Simulation, Strategy, General, Management, Government",
+        "multi": "Singleplayer",
+        "developer": "Bay 12 games",
+        "publisher": "Kitfox publishing",
+        "date": "06/12/2022"
+    },
+    "5": {
+        "name": "Terraria",
+        "score": 83,
+        "description": "Terraria offers players a chance to be an action gamer, master builder, a collector, and even an explorer. ",
+        "genre": "Action, Action Adventure, Platformer, Platformer, Sandbox, 2D",
+        "multi": "Online multiplayer",
+        "developer": "Re-Logic",
+        "publisher": "505 games",
+        "date": "16/05/2011"
+    },
+    "6": {
+        "name": "Plants vs zombies",
+        "score": 87,
+        "description": "Zombies are invading your home, and the only defense is your arsenal of plants! Armed with an alien nursery-worth of zombie-zapping plants like peashooters and cherry bombs, you'll need to think fast and plant faster to stop dozens of types of zombies dead in their tracks. Obstacles like a setting sun, creeping fog and a swimming pool add to the challenge, and with five game modes to dig into, the fun never dies!",
+        "genre": "Strategy, Real-Time, Fantasy, General, Fantasy, Defense",
+        "multi": "Singleplayer",
+        "developer": "PopCap",
+        "publisher": "EA",
+        "date": "05/05/2009"
+    },
+    "7": {
+        "name": "Spore",
+        "score": 84,
+        "description": "From the mind of Will Wright comes SPORE, a journey that takes you from the origin and evolution of life through the development of civilization and technology and eventually all the way into the deepest reaches of outer space. Begin your odyssey at the dawn of life as a simple microbe just trying to survive, then use the fun, intuitive Editors to evolve the creature from its microscopic origins into an intelligent, tool-using race. Guide your species as it builds (and the player designs) villages, buildings, cities, and vehicles. Along the way to becoming a global civilization you can choose whether to hunt or forage, attack or trade, be nice or play rough. All the action takes place in a huge, lush world populated with creatures evolved by other players and shared over SPORE's central servers. When it's ready, your one-time pond scum launches into space in its UFO on a grand voyage of discovery, planet forming, or destruct-ion. As you explore and play in this limitless universe of unique worlds, your personal Sporepedia tracks all the creatures you've met and places you've visited. Take complete control of your creature's fate as you guide it through the following six evolutionary phases: Tidepool phase: Fight with other creatures and consume them to adjust the form and abilities of your creature. It's survival of the fittest at the most microscopic level. Creature phase: Venture onto dry land and help your creature learn and evolve with forays away from your safe haven. Carnivore or Herbivore? Social or Independent? The choice is yours. Tribal phase: Instead of controlling an individual creature, you are now caring for an entire tribe of your genetic craftwork. Give them tools and guide their interactions as you slowly upgrade their state of existence. City phase: Bring your creatures' race into a new golden era by building up the technology, architecture, and infrastructure of their city. Civilization phase: Once your city is established, your creatures begin seeking out and interacting with other cultures. You can have them do so with an olive branch or a war cry—either way, the goal for your creatures is to unify the planet. Space phase: The time has come to move on to other worlds in your solar system. Make first-contact, colonize, or terraform, then venture further to find other solar systems scattered throughout a magnificently rendered galaxy. A 'mission' structure provides new goals and paths to follow as you begin to spread through the universe.",
+        "genre": "Strategy, Breeding/Constructing, General",
+        "multi": "Singleplayer",
+        "developer": "Maxis",
+        "publisher": "EA",
+        "date": "07/09/2008"
+    },
+    "8": {
+        "name": "Hades",
+        "score": 93,
+        "description": "Defy the god of death as you hack and slash your way out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion and Transistor.",
+        "genre": "Role-Playing, Action Adventure, General, Linear, Roguelike",
+        "multi": "Singleplayer",
+        "developer": "Supergiant Games",
+        "publisher": "Supergiant Games",
+        "date": "17/09/2020"
+    },
+    "9": {
+        "name": "Starbound",
+        "score": 81,
+        "description": "In Starbound, you take on the role of a character who’s just fled from their home planet, only to crash-land on another. From there you’ll embark on a quest to survive, discover, explore and fight your way across an infinite universe.",
+        "genre": "Fantasy, General, Fantasy, Action Adventure, Sandbox",
+        "multi": "Online multiplayer",
+        "developer": "Chucklefish",
+        "publisher": "Chucklefish",
+        "date": "22/07/2016"
+    },
+    "10": {
+        "name": "Tanuki sunset",
+        "score": 74,
+        "description": "Tanuki Sunset is a third-person longboarding game where players follow Tanuki, a rad raccoon with a longboard and a dream to land on the cover of the #1 magazine in Sunset Island: FISH! Players must master longboard drifting to make their way from mountains ranges, through the city and down to the beach of Sunset Island. Throughout the journey players will guide Tanuki to perform rad tricks, jump-off ramps, all while avoiding cars and multiple obstacles. Collecting Tanuki Bits along the way is important to redeem for items and gear at Bob's Skate Shop, where players can customize Tanuki's outfit and longboard to better suit their personal style.",
+        "genre": "Racing, Arcade, Other",
+        "multi": "Singleplayer",
+        "developer": "Rewind games",
+        "publisher": "Digerati distribution",
+        "date": "04/12/2020"
     }
 }
