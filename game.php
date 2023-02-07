@@ -12,6 +12,14 @@
     <title><?php echo $gameData["name"] ?></title>
 </head>
 <body>
+    <header>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="catalog.php">Catalog</a></li>
+            <li><a href="aboutUs.html">About us</a></li>
+        </ul>
+    </header>
+    
     <div id="contentDiv">
         <img src="img/<?php echo $_GET["id"] ?>/cover.png" alt="cover">
         <div id="score">
