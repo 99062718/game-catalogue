@@ -1,5 +1,7 @@
 <?php
     $gameData = json_decode(file_get_contents("gameData.json"), true)[$_GET["id"]];
+    $path = 'img/$_GET["id"]/carousel';
+    $carouselImgs = scandir($path);
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +21,7 @@
             <li><a href="aboutUs.html">About us</a></li>
         </ul>
     </header>
-    
+
     <div id="contentDiv">
         <img src="img/<?php echo $_GET["id"] ?>/cover.png" alt="cover">
         <div id="score">
@@ -33,6 +35,19 @@
             Publisher: <?php echo $gameData["publisher"] ?><br>
             Date of release: <?php echo $gameData["date"] ?>
         </p>
+    </div>
+
+    <hr>
+
+    <div class="carousel">
+        <?php foreach($carouselImgs as $currentImg){ ?>
+            <div class="slide">
+                <img src="img/<?php echo $_GET['id'] + '/' + $currentImg ?> alt="">
+            </div>
+        <?php } ?>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
 
     <script>
