@@ -41,7 +41,6 @@
 
     <div class="carousel">
         <?php foreach($carouselImgs as $currentImg){ ?>
-            <?php echo $currentImg; ?>
             <div class="slide">
                 <img src="img/<?php echo $_GET['id'] . '/carousel/' . $currentImg; ?>" alt="">
             </div>
