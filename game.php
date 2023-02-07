@@ -1,7 +1,7 @@
 <?php
     $gameData = json_decode(file_get_contents("gameData.json"), true)[$_GET["id"]];
-    $path = 'img/$_GET["id"]/carousel';
-    $carouselImgs = scandir($path);
+    $path = 'img/'.$_GET["id"].'/carousel';
+    $carouselImgs = array_slice(scandir($path),2);
 ?>
 
 <!DOCTYPE html>
@@ -41,8 +41,9 @@
 
     <div class="carousel">
         <?php foreach($carouselImgs as $currentImg){ ?>
+            <?php echo $currentImg; ?>
             <div class="slide">
-                <img src="img/<?php echo $_GET['id'] + '/' + $currentImg ?> alt="">
+                <img src="img/<?php echo $_GET['id'] . '/carousel/' . $currentImg; ?>" alt="">
             </div>
         <?php } ?>
 
@@ -60,5 +61,6 @@
             scoreDiv.style.backgroundColor = "orange";
         }
     </script>
+    <script type="text/javascript" src="scripts/carousel.js"></script>
 </body>
 </html>
