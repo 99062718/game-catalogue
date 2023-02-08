@@ -1,3 +1,8 @@
+#mainDiv{
+    width: 1000px;
+    margin: auto;
+}
+
 #contentDiv{
     height: 50vh;
     margin: 5%;
@@ -23,23 +28,26 @@ p{
 }
 
 .carousel{
-    width: 1000px;
     position: relative;
-    margin: auto;
+    height: 10%;
+    width: 100%;
 }
 
 .slide{
+    width: 20%;
     display: none;
+    margin: 2.5%;
+    float: left;
 }
 
-.slide > img{
+.slide img{
     width: 100%;
 }
 
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 25%;
     width: auto;
     padding: 16px;
     color: white;

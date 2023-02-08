@@ -23,33 +23,36 @@
         </ul>
     </header>
 
-    <div id="contentDiv">
-        <img src="img/<?php echo $_GET["id"] ?>/cover.png" alt="cover">
-        <div id="score">
-            <h1><?php echo $gameData["score"] ?></h1>
-        </div>
-        <p>
-            Description: <?php echo $gameData["description"] ?><br>
-            Genre(s): <?php echo $gameData["genre"] ?><br>
-            # of players: <?php echo $gameData["multi"] ?><br>
-            Developer: <?php echo $gameData["developer"] ?><br>
-            Publisher: <?php echo $gameData["publisher"] ?><br>
-            Date of release: <?php echo $gameData["date"] ?>
-        </p>
-    </div>
-
-    <hr>
-
-    <div class="carousel">
-        <?php foreach($carouselImgs as $currentImg){ ?>
-            <div class="slide">
-                <img src="img/<?php echo $_GET['id'] . '/carousel/' . $currentImg; ?>" alt="">
+    <div id="mainDiv">
+        <div id="contentDiv">
+            <img src="img/<?php echo $_GET["id"] ?>/cover.png" alt="cover">
+            <div id="score">
+                <h1><?php echo $gameData["score"] ?></h1>
             </div>
-        <?php } ?>
+            <p>
+                Description: <?php echo $gameData["description"] ?><br>
+                Genre(s): <?php echo $gameData["genre"] ?><br>
+                # of players: <?php echo $gameData["multi"] ?><br>
+                Developer: <?php echo $gameData["developer"] ?><br>
+                Publisher: <?php echo $gameData["publisher"] ?><br>
+                Date of release: <?php echo $gameData["date"] ?>
+            </p>
+        </div>
 
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <hr>
+
+        <div class="carousel">
+            <?php foreach($carouselImgs as $currentImg){ ?>
+                <div class="slide">
+                    <img src="img/<?php echo $_GET['id'] . '/carousel/' . $currentImg; ?>" alt="">
+                </div>
+            <?php } ?>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
     </div>
+    
 
     <script>
         score = <?php echo $gameData["score"] ?>;
