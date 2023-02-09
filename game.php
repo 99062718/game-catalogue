@@ -41,20 +41,17 @@
 
         <hr>
 
-        <div class="carousel">
-            <?php foreach($carouselImgs as $currentImg){ ?>
-                <div class="slide">
-                    <img src="img/<?php echo $_GET['id'] . '/carousel/' . $currentImg; ?>" alt="">
-                </div>
-            <?php } ?>
-
+        <div id="carousel">
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <div id="carouselImgs"></div>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
     </div>
     
 
     <script>
+        gameId = <?php echo $_GET["id"] ?>;
+        imgList = <?php echo json_encode($carouselImgs) ?>;
         score = <?php echo $gameData["score"] ?>;
         scoreDiv = document.getElementById("score");
 

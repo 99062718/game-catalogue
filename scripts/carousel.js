@@ -1,24 +1,27 @@
-let slideIndex = 1;
-showSlides(slideIndex);
+carousel = document.getElementById("carouselImgs");
+let slideIndex = 0;
+plusSlides(1, 4);
 
-function plusSlides(n) {
-  slideIndex += n
-  showSlides(slideIndex);
+function plusSlides(n, amount = 1) {
+  if (amount == 1 && n == 1) {carousel.firstElementChild.remove();}
+  if (amount == 1 && n == -1) {carousel.lastElementChild.remove();}
+
+  for (i = 0; i < amount; i++) {
+    if (slideIndex == imgList.length) {slideIndex = 0}
+    if (slideIndex < 0) {slideIndex = imgList.length - 1}
+    showSlides(n);
+    slideIndex += n
+  }
 }
 
 function showSlides(n) {
-    let slides = document.getElementsByClassName("slide");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    for (i = 0; i <= 3; i++) {
-      console.log(n)
-      if (n > slides.length) {n = 1}
-      if (n < 1) {n = slides.length}
-      slides[n-1].style.display = "block";
-      console.log(slides[n-1])
-      n++;
-    }
+  divElem = document.createElement("div");
+  divElem.classList.add("slide");
+  imgElem = document.createElement("img");
+  divElem.appendChild(imgElem);
+
+  if (n == 1) {carousel.appendChild(divElem);}
+  if (n == -1) {carousel.insertBefore(divElem, carousel.firstElementChild);}
+
+  imgElem.src = "img/" + gameId + "/carousel/" + imgList[slideIndex];
 }

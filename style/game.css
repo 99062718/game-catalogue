@@ -27,15 +27,19 @@ p{
     text-align: justify;
 }
 
-.carousel{
+#carousel{
     position: relative;
     height: 10%;
     width: 100%;
 }
 
+#carouselImgs{
+    height: 100%;
+    width: 100%;
+}
+
 .slide{
     width: 20%;
-    display: none;
     margin: 2.5%;
     float: left;
 }
