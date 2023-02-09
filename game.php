@@ -22,45 +22,43 @@
             <li><a href="aboutUs.html">About us</a></li>
         </ul>
     </header>
-
-    <div id="mainDiv">
-        <div id="contentDiv">
-            <img src="img/<?php echo $_GET["id"] ?>/cover.png" alt="cover">
-            <div id="score">
-                <h1><?php echo $gameData["score"] ?></h1>
-            </div>
-            <p>
-                Description: <?php echo $gameData["description"] ?><br>
-                Genre(s): <?php echo $gameData["genre"] ?><br>
-                # of players: <?php echo $gameData["multi"] ?><br>
-                Developer: <?php echo $gameData["developer"] ?><br>
-                Publisher: <?php echo $gameData["publisher"] ?><br>
-                Date of release: <?php echo $gameData["date"] ?>
-            </p>
-        </div>
-
-        <hr>
-
-        <div id="carousel">
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <div id="carouselImgs"></div>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-    </div>
     
+    <div id="mainDiv">
+        <div class="sideDiv"></div>
+
+        <div id="contentDiv">
+            <div id="textDiv">
+                <div id="score">
+                    <h1><?php echo $gameData["score"] ?></h1>
+                </div>
+                <p>
+                    Description: <?php echo $gameData["description"] ?><br><br>
+                    Genre(s): <?php echo $gameData["genre"] ?><br>
+                    # of players: <?php echo $gameData["multi"] ?><br>
+                    Developer: <?php echo $gameData["developer"] ?><br>
+                    Publisher: <?php echo $gameData["publisher"] ?><br>
+                    Date of release: <?php echo $gameData["date"] ?>
+                </p>
+            </div>
+
+            <hr>
+
+            <div id="carousel">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <div id="carouselImgs"></div>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+
+        <div class="sideDiv"></div>
+    </div>
 
     <script>
         gameId = <?php echo $_GET["id"] ?>;
         imgList = <?php echo json_encode($carouselImgs) ?>;
         score = <?php echo $gameData["score"] ?>;
-        scoreDiv = document.getElementById("score");
-
-        if(score < 50){
-            scoreDiv.style.backgroundColor = "red";
-        } else if(score < 80){
-            scoreDiv.style.backgroundColor = "orange";
-        }
     </script>
+    <script type="text/javascript" src="scripts/gamePage.js"></script>
     <script type="text/javascript" src="scripts/carousel.js"></script>
 </body>
 </html>

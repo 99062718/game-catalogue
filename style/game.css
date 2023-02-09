@@ -1,22 +1,31 @@
 #mainDiv{
-    width: 1000px;
-    margin: auto;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 10% auto 10%;
 }
 
 #contentDiv{
+    top: 0px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 0px;
+}
+
+#textDiv{
+    border: 2px;
+    border-style: solid;
     height: 50vh;
     margin: 5%;
 }
 
-#contentDiv > img{
-    height: 80%;
-    width: auto;
-    float: left;
+.sideDiv{
+    background-size: contain;
+    background-repeat: repeat-y;
 }
 
 #score{
     background-color: lightgreen;
-    width: 5%;
+    width: 10%;
     text-align: center;
     border-radius: 5%;
     margin-top: 2%;
@@ -51,7 +60,7 @@ p{
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 25%;
+    margin-top: 5%;
     width: auto;
     padding: 16px;
     color: white;
