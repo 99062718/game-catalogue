@@ -1,5 +1,5 @@
 #mainDiv{
-    height: 100vh;
+    height: 1000px;
     display: grid;
     grid-template-columns: 10% auto 10%;
 }
@@ -7,18 +7,16 @@
 #contentDiv{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 15% 25% 25%;
     top: 0px;
     width: 1000px;
+    height: 100%;
     margin: auto;
     margin-top: 0px;
 }
 
 #textDiv{
     grid-column-start: span 3;
-    border: 2px;
-    border-style: solid;
-    height: 30vh;
-    margin: 5%;
     overflow: scroll;
 }
 
@@ -31,26 +29,30 @@
     grid-column-start: span 4;
 }
 
+.addBorder{
+    border: 2px;
+    border-style: solid;
+}
+
 #score{
+    margin-left: 40%;
     background-color: lightgreen;
-    width: 10%;
+    width: 20%;
+    height: 20%;
     text-align: center;
     border-radius: 5%;
     margin-top: 2%;
-    float: right;
-}
-
-p{
-    text-align: justify;
 }
 
 #carousel{
+    display: flex;
+    align-items: center;
     position: relative;
-    height: 10%;
-    width: 100%;
 }
 
 #carouselImgs{
+    display: flex;
+    align-items: center;
     height: 100%;
     width: 100%;
 }
@@ -68,7 +70,6 @@ p{
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    margin-top: 5%;
     width: auto;
     padding: 16px;
     color: white;

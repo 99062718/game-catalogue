@@ -26,15 +26,20 @@
     <div id="mainDiv">
         <div class="sideDiv"></div>
 
-        <div id="contentDiv">
-            <div id="textDiv">
-                <div id="score">
-                    <h1><?php echo $gameData["score"] ?></h1>
-                </div>
+        <div id="contentDiv" class="addBorder">
+            <div id="textDiv" class="addBorder">
                 <h1><?php echo $gameData["name"] ?></h1>
                 <p>
                     Description: <?php echo $gameData["description"] ?><br><br>
                     Genre(s): <?php echo $gameData["genre"] ?><br>
+                </p>
+            </div>
+
+            <div class="addBorder">
+                <div id="score">
+                    <h1><?php echo $gameData["score"] ?></h1>
+                </div>
+                <p>
                     # of players: <?php echo $gameData["multi"] ?><br>
                     Developer: <?php echo $gameData["developer"] ?><br>
                     Publisher: <?php echo $gameData["publisher"] ?><br>
@@ -42,9 +47,7 @@
                 </p>
             </div>
 
-            <hr class="useFullColumn">
-
-            <div id="carousel" class="useFullColumn">
+            <div id="carousel" class="useFullColumn addBorder">
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <div id="carouselImgs"></div>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
