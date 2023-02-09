@@ -31,6 +31,7 @@
                 <div id="score">
                     <h1><?php echo $gameData["score"] ?></h1>
                 </div>
+                <h1><?php echo $gameData["name"] ?></h1>
                 <p>
                     Description: <?php echo $gameData["description"] ?><br><br>
                     Genre(s): <?php echo $gameData["genre"] ?><br>
@@ -41,9 +42,9 @@
                 </p>
             </div>
 
-            <hr>
+            <hr class="useFullColumn">
 
-            <div id="carousel">
+            <div id="carousel" class="useFullColumn">
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <div id="carouselImgs"></div>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>

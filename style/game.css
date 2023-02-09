@@ -5,6 +5,8 @@
 }
 
 #contentDiv{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
     top: 0px;
     width: 1000px;
     margin: auto;
@@ -12,15 +14,21 @@
 }
 
 #textDiv{
+    grid-column-start: span 3;
     border: 2px;
     border-style: solid;
-    height: 50vh;
+    height: 30vh;
     margin: 5%;
+    overflow: scroll;
 }
 
 .sideDiv{
     background-size: contain;
     background-repeat: repeat-y;
+}
+
+.useFullColumn{
+    grid-column-start: span 4;
 }
 
 #score{
