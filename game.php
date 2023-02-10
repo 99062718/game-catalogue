@@ -65,7 +65,7 @@
                 </p>
             </div>
 
-            <div class="addBorder useFullColumn">
+            <div class="addBorder useFullColumn" id="reviews">
                 <h1>Reviews:</h1>
                 <?php foreach ($gameData["reviews"] as $review) {
                     echo "<p>$review</p>";

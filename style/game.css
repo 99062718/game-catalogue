@@ -7,12 +7,16 @@
 #contentDiv{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 25% 15% 25% 25%;
+    grid-template-rows: 35% 15% 25% 25%;
     top: 0px;
     width: 1000px;
     height: 100%;
     margin: auto;
     margin-top: 0px;
+}
+
+#contentDiv > div{
+    padding-left: 2.5%;
 }
 
 #textDiv{
@@ -38,13 +42,14 @@
     margin-left: 40%;
     background-color: lightgreen;
     width: 20%;
-    height: 20%;
+    height: 14%;
     text-align: center;
     border-radius: 5%;
     margin-top: 2%;
 }
 
 #carousel{
+    padding: 0px !important;
     display: flex;
     align-items: center;
     position: relative;
@@ -88,5 +93,9 @@
   
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
+}
+
+#reviews{
+    overflow: scroll;
 }
   
