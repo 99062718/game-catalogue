@@ -13,7 +13,8 @@
         "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
         "directX": 11,
         "network": "Broadband Internet connection",
-        "storage": "3 GB available space"
+        "storage": "3 GB available space",
+        "reviews": ["'Truly the game of all time <br> - Creator of this website'", "'I love this game' <br> - Me again", "'Who are you?' <br> - Guy i found on the street"]
     },
     "1": {
         "name": "Factorio",
@@ -29,7 +30,8 @@
         "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
         "directX": 11,
         "network": "Broadband Internet connection",
-        "storage": "3 GB available space"
+        "storage": "3 GB available space",
+        "reviews": ["'Truly the game of all time <br> - Creator of this website'", "'I love this game' <br> - Me again", "'Who are you?' <br> - Guy i found on the street"]
     },
     "2": {
         "name": "Yakuza kiwami 2",
@@ -45,7 +47,8 @@
         "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
         "directX": 11,
         "network": "Broadband Internet connection",
-        "storage": "3 GB available space"
+        "storage": "3 GB available space",
+        "reviews": ["'Truly the game of all time <br> - Creator of this website'", "'I love this game' <br> - Me again", "'Who are you?' <br> - Guy i found on the street"]
     },
     "3": {
         "name": "Project zomboid",
@@ -61,7 +64,8 @@
         "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
         "directX": 11,
         "network": "Broadband Internet connection",
-        "storage": "3 GB available space"
+        "storage": "3 GB available space",
+        "reviews": ["'Truly the game of all time <br> - Creator of this website'", "'I love this game' <br> - Me again", "'Who are you?' <br> - Guy i found on the street"]
     },
     "4": {
         "name": "Dwarf fortress",
@@ -77,7 +81,8 @@
         "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
         "directX": 11,
         "network": "Broadband Internet connection",
-        "storage": "3 GB available space"
+        "storage": "3 GB available space",
+        "reviews": ["'Truly the game of all time <br> - Creator of this website'", "'I love this game' <br> - Me again", "'Who are you?' <br> - Guy i found on the street"]
     },
     "5": {
         "name": "Terraria",
@@ -93,7 +98,8 @@
         "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
         "directX": 11,
         "network": "Broadband Internet connection",
-        "storage": "3 GB available space"
+        "storage": "3 GB available space",
+        "reviews": ["'Truly the game of all time <br> - Creator of this website'", "'I love this game' <br> - Me again", "'Who are you?' <br> - Guy i found on the street"]
     },
     "6": {
         "name": "Plants vs zombies",
@@ -109,7 +115,8 @@
         "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
         "directX": 11,
         "network": "Broadband Internet connection",
-        "storage": "3 GB available space"
+        "storage": "3 GB available space",
+        "reviews": ["'Truly the game of all time <br> - Creator of this website'", "'I love this game' <br> - Me again", "'Who are you?' <br> - Guy i found on the street"]
     },
     "7": {
         "name": "Spore",
@@ -125,7 +132,8 @@
         "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
         "directX": 11,
         "network": "Broadband Internet connection",
-        "storage": "3 GB available space"
+        "storage": "3 GB available space",
+        "reviews": ["'Truly the game of all time <br> - Creator of this website'", "'I love this game' <br> - Me again", "'Who are you?' <br> - Guy i found on the street"]
     },
     "8": {
         "name": "Hades",
@@ -141,7 +149,8 @@
         "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
         "directX": 11,
         "network": "Broadband Internet connection",
-        "storage": "3 GB available space"
+        "storage": "3 GB available space",
+        "reviews": ["'Truly the game of all time <br> - Creator of this website'", "'I love this game' <br> - Me again", "'Who are you?' <br> - Guy i found on the street"]
     },
     "9": {
         "name": "Starbound",
@@ -157,7 +166,8 @@
         "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
         "directX": 11,
         "network": "Broadband Internet connection",
-        "storage": "3 GB available space"
+        "storage": "3 GB available space",
+        "reviews": ["'Truly the game of all time <br> - Creator of this website'", "'I love this game' <br> - Me again", "'Who are you?' <br> - Guy i found on the street"]
     },
     "10": {
         "name": "Tanuki sunset",
@@ -173,6 +183,7 @@
         "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
         "directX": 11,
         "network": "Broadband Internet connection",
-        "storage": "3 GB available space"
+        "storage": "3 GB available space",
+        "reviews": ["'Truly the game of all time <br> - Creator of this website'", "'I love this game' <br> - Me again", "'Who are you?' <br> - Guy i found on the street"]
     }
 }

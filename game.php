@@ -64,6 +64,13 @@
                 Storage: <?php echo $gameData["storage"] ?>
                 </p>
             </div>
+
+            <div class="addBorder useFullColumn">
+                <h1>Reviews:</h1>
+                <?php foreach ($gameData["reviews"] as $review) {
+                    echo "<p>$review</p>";
+                } ?>
+            </div>
         </div>
 
         <div class="sideDiv"></div>
