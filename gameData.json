@@ -7,7 +7,13 @@
         "multi": "4 player co-op",
         "developer": "Ghost ship games",
         "publisher": "Coffee stain publishing",
-        "date": "13/05/2020"
+        "date": "13/05/2020",
+        "cpu": "Intel i5, 3rd gen (or equivalent)",
+        "ram": "6 GB",
+        "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
+        "directX": 11,
+        "network": "Broadband Internet connection",
+        "storage": "3 GB available space"
     },
     "1": {
         "name": "Factorio",
@@ -17,7 +23,13 @@
         "multi": "Online multiplayer",
         "developer": "Wube Software LTD.",
         "publisher": "Wube Software LTD.",
-        "date": "14/08/2020"
+        "date": "14/08/2020",
+        "cpu": "Intel i5, 3rd gen (or equivalent)",
+        "ram": "6 GB",
+        "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
+        "directX": 11,
+        "network": "Broadband Internet connection",
+        "storage": "3 GB available space"
     },
     "2": {
         "name": "Yakuza kiwami 2",
@@ -27,7 +39,13 @@
         "multi": "Singleplayer",
         "developer": "Ryu ga Gotoku Studios",
         "publisher": "SEGA",
-        "date": "09/05/2019"
+        "date": "09/05/2019",
+        "cpu": "Intel i5, 3rd gen (or equivalent)",
+        "ram": "6 GB",
+        "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
+        "directX": 11,
+        "network": "Broadband Internet connection",
+        "storage": "3 GB available space"
     },
     "3": {
         "name": "Project zomboid",
@@ -37,7 +55,13 @@
         "multi": "Online multiplayer",
         "developer": "The Indie Stone",
         "publisher": "The Indie Stone",
-        "date": "TBA - Early Access"
+        "date": "TBA - Early Access",
+        "cpu": "Intel i5, 3rd gen (or equivalent)",
+        "ram": "6 GB",
+        "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
+        "directX": 11,
+        "network": "Broadband Internet connection",
+        "storage": "3 GB available space"
     },
     "4": {
         "name": "Dwarf fortress",
@@ -47,7 +71,13 @@
         "multi": "Singleplayer",
         "developer": "Bay 12 games",
         "publisher": "Kitfox publishing",
-        "date": "06/12/2022"
+        "date": "06/12/2022",
+        "cpu": "Intel i5, 3rd gen (or equivalent)",
+        "ram": "6 GB",
+        "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
+        "directX": 11,
+        "network": "Broadband Internet connection",
+        "storage": "3 GB available space"
     },
     "5": {
         "name": "Terraria",
@@ -57,7 +87,13 @@
         "multi": "Online multiplayer",
         "developer": "Re-Logic",
         "publisher": "505 games",
-        "date": "16/05/2011"
+        "date": "16/05/2011",
+        "cpu": "Intel i5, 3rd gen (or equivalent)",
+        "ram": "6 GB",
+        "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
+        "directX": 11,
+        "network": "Broadband Internet connection",
+        "storage": "3 GB available space"
     },
     "6": {
         "name": "Plants vs zombies",
@@ -67,7 +103,13 @@
         "multi": "Singleplayer",
         "developer": "PopCap",
         "publisher": "EA",
-        "date": "05/05/2009"
+        "date": "05/05/2009",
+        "cpu": "Intel i5, 3rd gen (or equivalent)",
+        "ram": "6 GB",
+        "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
+        "directX": 11,
+        "network": "Broadband Internet connection",
+        "storage": "3 GB available space"
     },
     "7": {
         "name": "Spore",
@@ -77,7 +119,13 @@
         "multi": "Singleplayer",
         "developer": "Maxis",
         "publisher": "EA",
-        "date": "07/09/2008"
+        "date": "07/09/2008",
+        "cpu": "Intel i5, 3rd gen (or equivalent)",
+        "ram": "6 GB",
+        "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
+        "directX": 11,
+        "network": "Broadband Internet connection",
+        "storage": "3 GB available space"
     },
     "8": {
         "name": "Hades",
@@ -87,7 +135,13 @@
         "multi": "Singleplayer",
         "developer": "Supergiant Games",
         "publisher": "Supergiant Games",
-        "date": "17/09/2020"
+        "date": "17/09/2020",
+        "cpu": "Intel i5, 3rd gen (or equivalent)",
+        "ram": "6 GB",
+        "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
+        "directX": 11,
+        "network": "Broadband Internet connection",
+        "storage": "3 GB available space"
     },
     "9": {
         "name": "Starbound",
@@ -97,7 +151,13 @@
         "multi": "Online multiplayer",
         "developer": "Chucklefish",
         "publisher": "Chucklefish",
-        "date": "22/07/2016"
+        "date": "22/07/2016",
+        "cpu": "Intel i5, 3rd gen (or equivalent)",
+        "ram": "6 GB",
+        "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
+        "directX": 11,
+        "network": "Broadband Internet connection",
+        "storage": "3 GB available space"
     },
     "10": {
         "name": "Tanuki sunset",
@@ -107,6 +167,12 @@
         "multi": "Singleplayer",
         "developer": "Rewind games",
         "publisher": "Digerati distribution",
-        "date": "04/12/2020"
+        "date": "04/12/2020",
+        "cpu": "Intel i5, 3rd gen (or equivalent)",
+        "ram": "6 GB",
+        "gpu": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
+        "directX": 11,
+        "network": "Broadband Internet connection",
+        "storage": "3 GB available space"
     }
 }

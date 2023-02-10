@@ -52,6 +52,18 @@
                 <div id="carouselImgs"></div>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
+
+            <div class="addBorder useFullColumn">
+                <h1>Systeem eisen:</h1>
+                <p>
+                Processor: <?php echo $gameData["cpu"] ?><br>
+                Memory: <?php echo $gameData["ram"] ?><br>
+                Graphics: <?php echo $gameData["gpu"] ?><br>
+                DirectX: <?php echo $gameData["directX"] ?><br>
+                Network: <?php echo $gameData["network"] ?><br>
+                Storage: <?php echo $gameData["storage"] ?>
+                </p>
+            </div>
         </div>
 
         <div class="sideDiv"></div>
