@@ -1,0 +1,18 @@
+#dropdown{
+    display: inline-block;
+    position: relative;
+}
+
+#dropdownContent{
+    position: absolute;
+    display: none;
+    height: auto;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked + #dropdownContent{
+    display: block;
+}

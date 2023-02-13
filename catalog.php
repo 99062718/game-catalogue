@@ -11,9 +11,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/navbar.css">
     <link rel="stylesheet" href="style/catalog.css">
+    <link rel="stylesheet" href="style/dropdown.css">
     <title>Catalog</title>
 </head>
 <body>
+    <input type="checkbox" id="check">
+
     <header>
         <ul>
             <li><a href="home.html">Home</a></li>
@@ -22,11 +25,19 @@
         </ul>
     </header>
 
+    <div>
+        <button id="dropdown">Genre dropdown</button>
+        <button>Prijs input field</button>
+        <button>Ok knop</button>
+    </div>
+
     <div id="catalogDiv">
         <h1>CATALOG</h1>
         <?php for($x = 0; $x < sizeof($gameData); $x++){
             echo '<a href="game.php?id='.$x.'" id="'.$x.'"><img class="gameCover" src="img/'.$x.'/cover.png" alt="cover"></a>';
         } ?>
     </div>
+
+    <script src="scripts/catalog.js"></script>
 </body>
 </html>
