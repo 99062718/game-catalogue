@@ -23,9 +23,9 @@
 
     <div id="catalogDiv">
         <h1>CATALOG</h1>
-        <?php for($x = 0; $x < sizeof($gameData); $x++){ ?>
-            <a href="game.php?id=<?php echo $x ?>"><img class="gameCover" src="img/<?php echo $x?>/cover.png" alt="cover"></a>
-        <?php } ?>
+        <?php for($x = 0; $x < sizeof($gameData); $x++){
+            echo '<a href="game.php?id='.$x.'" id="'.$x.'"><img class="gameCover" src="img/'.$x.'/cover.png" alt="cover"></a>';
+        } ?>
     </div>
 </body>
 </html>
