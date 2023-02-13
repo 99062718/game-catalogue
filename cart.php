@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/cart.css">
     <title>Winkelwagen</title>
 </head>
 <body>
@@ -22,9 +23,12 @@
 
     <div id="mainDiv">
         <div id="wagentjeContent">
-            <?php foreach ($_SESSION["wagentje"] as $currentItem){
-
-            } ?>
+            <?php foreach ($_SESSION["wagentje"] as $currentItem){ ?>
+                <div>
+                    <p></p>
+                    <p></p>
+                </div>
+            <?php } ?>
         </div>
     </div>
 </body>
