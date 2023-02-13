@@ -1,5 +1,4 @@
 <?php
-    $gameData = json_decode(file_get_contents("gameData.json"), true);
     session_start();
 ?>
 
@@ -10,8 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/navbar.css">
-    <link rel="stylesheet" href="style/catalog.css">
-    <title>Catalog</title>
+    <title>Winkelwagen</title>
 </head>
 <body>
     <header>
@@ -22,11 +20,12 @@
         </ul>
     </header>
 
-    <div id="catalogDiv">
-        <h1>CATALOG</h1>
-        <?php for($x = 0; $x < sizeof($gameData); $x++){
-            echo '<a href="game.php?id='.$x.'" id="'.$x.'"><img class="gameCover" src="img/'.$x.'/cover.png" alt="cover"></a>';
-        } ?>
+    <div id="mainDiv">
+        <div id="wagentjeContent">
+            <?php foreach ($_SESSION["wagentje"] as $currentItem){
+
+            } ?>
+        </div>
     </div>
 </body>
 </html>
