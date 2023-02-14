@@ -32,7 +32,7 @@
                 echo "<label for='$genre'>$genre</label><br>";
             } ?>
         </div>
-        <button>Prijs input field</button>
+        <button id="price">Prijs input field</button>
         <button>Ok knop</button>
     </div>
 
