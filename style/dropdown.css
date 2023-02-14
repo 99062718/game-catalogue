@@ -4,15 +4,8 @@
 }
 
 #dropdownContent{
+    background-color: grey;
     position: absolute;
     display: none;
     height: auto;
-}
-
-#check{
-    display: none;
-}
-
-#check:checked + #dropdownContent{
-    display: block;
 }

@@ -1,4 +1,5 @@
 <?php
+    $genres = ["Adventure", "Action", "Shooter", "Fantasy", "Role-playing", "Stratergy"];
     $gameData = json_decode(file_get_contents("gameData.json"), true);
     session_start();
 ?>
@@ -15,8 +16,6 @@
     <title>Catalog</title>
 </head>
 <body>
-    <input type="checkbox" id="check">
-
     <header>
         <ul>
             <li><a href="home.html">Home</a></li>
@@ -27,6 +26,12 @@
 
     <div>
         <button id="dropdown">Genre dropdown</button>
+        <div id="dropdownContent">
+            <?php foreach ($genres as $genre) {
+                echo "<input type='checkbox' id='check$genre' name='$genre'>";
+                echo "<label for='$genre'>$genre</label><br>";
+            } ?>
+        </div>
         <button>Prijs input field</button>
         <button>Ok knop</button>
     </div>

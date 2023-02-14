@@ -1,4 +1,4 @@
 document.getElementById("dropdown").onclick = function(){
-    check = document.getElementById("check")
-    check.checked = (check.checked) ? false : true
+    content = document.getElementById("dropdownContent")
+    content.style.display = (content.style.display == "block") ? "none" : "block"
 }
