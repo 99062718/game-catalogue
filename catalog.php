@@ -1,6 +1,7 @@
 <?php
     $genres = ["Adventure", "Action", "Shooter", "Fantasy", "Role-playing", "Stratergy"];
-    $gameData = json_decode(file_get_contents("gameData.json"), true);
+    $json = file_get_contents("gameData.json");
+    $gameData = json_decode($json, true);
     session_start();
 ?>
 
@@ -33,7 +34,7 @@
             } ?>
         </div>
         <button id="price">Prijs input field</button>
-        <button>Ok knop</button>
+        <button id="okButton">Ok knop</button>
     </div>
 
     <div id="catalogDiv">
@@ -43,6 +44,9 @@
         } ?>
     </div>
 
+    <script>
+        gameData = JSON.parse(<?php echo json_encode($json) ?>);
+    </script>
     <script src="scripts/catalog.js"></script>
 </body>
 </html>
